@@ -14,7 +14,7 @@
 		E5CD605A2864C7440069ACF3 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD60592864C7440069ACF3 /* QuizModel.swift */; };
 		E5CD605E2864CCED0069ACF3 /* ReusableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD605D2864CCED0069ACF3 /* ReusableText.swift */; };
 		E5CD60602864CD6D0069ACF3 /* GameManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD605F2864CD6D0069ACF3 /* GameManagerVM.swift */; };
-		E5CD60622864D0140069ACF3 /* OptionGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD60612864D0140069ACF3 /* OptionGrid.swift */; };
+		E5CD60642864D84C0069ACF3 /* OptionGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD60632864D84C0069ACF3 /* OptionGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		E5CD60592864C7440069ACF3 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 		E5CD605D2864CCED0069ACF3 /* ReusableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableText.swift; sourceTree = "<group>"; };
 		E5CD605F2864CD6D0069ACF3 /* GameManagerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagerVM.swift; sourceTree = "<group>"; };
-		E5CD60612864D0140069ACF3 /* OptionGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionGrid.swift; sourceTree = "<group>"; };
+		E5CD60632864D84C0069ACF3 /* OptionGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E5CD605D2864CCED0069ACF3 /* ReusableText.swift */,
-				E5CD60612864D0140069ACF3 /* OptionGrid.swift */,
+				E5CD60632864D84C0069ACF3 /* OptionGridView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -173,8 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5CD60622864D0140069ACF3 /* OptionGrid.swift in Sources */,
 				E5CD604D2864C6900069ACF3 /* ContentView.swift in Sources */,
+				E5CD60642864D84C0069ACF3 /* OptionGridView.swift in Sources */,
 				E5CD605E2864CCED0069ACF3 /* ReusableText.swift in Sources */,
 				E5CD60602864CD6D0069ACF3 /* GameManagerVM.swift in Sources */,
 				E5CD605A2864C7440069ACF3 /* QuizModel.swift in Sources */,
