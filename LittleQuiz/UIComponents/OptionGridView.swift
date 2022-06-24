@@ -9,12 +9,16 @@ import Foundation
 import SwiftUI
 
 struct OptionGridView: View {
+    var gameManagerVM: GameManagerVM
     var columns: [GridItem] = Array(repeating: GridItem(.fixed(170), spacing: 0), count: 2)
     var body: some View {
         
         LazyVGrid(columns: columns, spacing: 20) {
-            ForEach(GameManagerVM.quizData[0].optionList) {
+            ForEach(gameManagerVM.model.quizModel.optionList) {
                 quizOption in OptionCardView(quizOption: quizOption)
+                    .onTapGesture {
+                        gameManagerVM.verifyAnswer(selectedOption: quizOption)
+                    }
             }
         }
     }
